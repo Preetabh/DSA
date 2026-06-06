@@ -7,6 +7,6 @@ void sayHello(){
 
 int  main (){
   sayHello();
-  cout <<"hello baby ";
+  cout <<"hello  ";
 }
 
