@@ -2,7 +2,10 @@
 using namespace std;
 
 int main() {
-    char arr[5]={'c','o','d','e','\0'};
-    cout <<arr;
+char sen[20]="vishu";
+char ch='e';
+int num=ch-'a'+'A';
+cout << char(num);
+
     return 0;
 }
