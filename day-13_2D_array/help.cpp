@@ -8,7 +8,7 @@ int main()
       {5, 6, 7, 8},
       {9, 10, 11, 12}
     };
-    cout<< arr[2][1];
+    cout<< arr[0][2];
 
   return 0;
 }
