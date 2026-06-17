@@ -19,5 +19,5 @@ int binToDec(int bin){
 }
 
 int main(){
-cout << binToDec(1111111) << endl;
+cout << binToDec(11111001) << endl;
 }
