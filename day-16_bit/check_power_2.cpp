@@ -14,7 +14,7 @@ int checkpower2(int num ){
 int main() {
 
   cout << checkpower2(7);
-  cout << checkpower2(8);
+  cout << checkpower2(10);
 
     return 0;
 }
