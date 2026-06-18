@@ -7,7 +7,7 @@ int clearIbit(int num, int i)
   return num & bitMark;
 }
 
-int main()
+int main() 
 {
   cout << clearIbit(6,2);
 
