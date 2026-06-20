@@ -16,5 +16,5 @@ int decToBin(int dec){
 }
 
 int main(){
-cout << decToBin(4);
+cout << decToBin(12);
 }
