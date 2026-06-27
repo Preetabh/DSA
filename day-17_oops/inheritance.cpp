@@ -26,7 +26,7 @@ class Fish :public Animal{
 
 int main() {
   Fish f1;
-  f1.fins=4;
+  f1.fins=6;
   f1.breathe();
   f1.swim();
     return 0;
