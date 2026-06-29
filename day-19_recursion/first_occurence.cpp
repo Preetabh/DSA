@@ -9,7 +9,7 @@ void firstOccurence(int arr[],int n, int i,int target){
     cout << "Your Targeted index is: " << i<<endl;
   }
   else{
-    firsrOccurence(arr,n,i+1,target);
+    firstOccurence(arr,n,i+1,target);
   }
   }
   else{
