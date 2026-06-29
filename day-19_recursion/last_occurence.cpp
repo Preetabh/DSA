@@ -1,15 +1,15 @@
 #include <iostream>
 using namespace std;
 
-void firstOccurence(int arr[],int n, int i,int target){
-  if(i<n){
+void lastOccurence(int arr[],int n, int i,int target){
+  if(n>0){
 
 
-  if(arr[i]==target){
-    cout << "Your Targeted index is: " << i<<endl;
+  if(arr[n]==target){
+    cout << "Your Targeted index is: " << n<<endl;
   }
   else{
-    firsrOccurence(arr,n,i+1,target);
+    lastOccurence(arr,n-1,i+1,target);
   }
   }
   else{
@@ -24,8 +24,8 @@ int main() {
 
   int len = sizeof(arr) / sizeof(arr[0]);
   int i =0;
-  int target=4;
-  firstOccurence(arr,len,i,target);
+  int target=1;
+  lastOccurence(arr,len,i,target);
 
     return 0;
 }
