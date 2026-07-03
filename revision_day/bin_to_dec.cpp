@@ -17,6 +17,6 @@ void binToDec(int bin){
 }
 
 int main() {
-binToDec(100111);
+binToDec(10011);
     return 0;
 }
