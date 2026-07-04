@@ -14,7 +14,7 @@ void findSubset(string str,string subset){
 }
 
 int main() {
-  string str="abc";
+  string str="abcd";
   string subset="";
   findSubset(str,subset);
 
