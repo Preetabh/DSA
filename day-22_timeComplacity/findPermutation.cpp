@@ -17,7 +17,7 @@ void findPermutation(string str,string permutation){
 
 
 int main() {
-  string str ="abc";
+  string str ="abcd";
   int n=str.length();
   string permutation="";
   findPermutation(str,permutation);
